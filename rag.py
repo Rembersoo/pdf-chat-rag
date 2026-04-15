@@ -9,6 +9,10 @@ from langchain.chains import RetrievalQA
 
 load_dotenv()
 
+import os
+groq_key = os.getenv("GROQ_API_KEY")
+print(f"GROQ KEY FOUND: {groq_key is not None}")
+
 def load_rag_chain():
     # Load the same embeddings used during ingestion
     embeddings = HuggingFaceEmbeddings(
