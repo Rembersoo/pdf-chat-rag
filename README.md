@@ -7,7 +7,7 @@ generates accurate answers using LLaMA 3.
 Built with a fully free stack — no paid APIs required.
 
 ## Live Demo
-🔗 https://your-app.up.railway.app
+🔗 [https://your-app.up.railway.app](https://pdf-chat-rag-production.up.railway.app/)
 
 ## How it works
 1. PDF is loaded and split into 500-character chunks
