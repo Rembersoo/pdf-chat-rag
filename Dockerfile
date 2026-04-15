@@ -14,4 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+RUN python ingest.py
+
 CMD ["sh", "-c", "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true"]
